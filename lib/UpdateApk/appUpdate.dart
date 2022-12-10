@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:ui';
 
 import 'package:app_version/app_version.dart';
-import 'package:data_app/NewsChannel/newsChannelDetails.dart';
+import 'package:data_app/Drawer/NewsChannel/newsChannelDetails.dart';
 import 'package:data_app/SerialPage.dart';
 import 'package:data_app/UpdateApk/downloadLink.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -12,7 +12,7 @@ import 'package:velocity_x/velocity_x.dart';
 import 'package:data_app/DetailsPage.dart';
 import 'package:data_app/Extras/home_page.dart';
 import 'package:data_app/MainPage.dart';
-import 'package:data_app/darwer.dart';
+import 'package:data_app/Drawer/darwer.dart';
 import 'package:data_app/serialhome.dart';
 import 'package:data_app/shimmerEffect.dart';
 import 'package:data_app/shimmerEffect1.dart';

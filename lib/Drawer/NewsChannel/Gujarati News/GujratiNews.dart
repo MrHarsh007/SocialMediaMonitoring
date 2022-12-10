@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:data_app/Aap/aapSearch.dart';
-import 'package:data_app/NewsChannel/Gujarati%20News/GujratiNewsSearch.dart';
-import 'package:data_app/NewsChannel/newsChannelDetails.dart';
+import 'package:data_app/Drawer/NewsChannel/Gujarati%20News/GujratiNewsSearch.dart';
+import 'package:data_app/Drawer/NewsChannel/newsChannelDetails.dart';
 import 'package:data_app/models/newsChannelModel.dart';
 import 'package:data_app/shimmerEffect1.dart';
 import 'package:http/http.dart' as http;

@@ -13,6 +13,8 @@ class ShimmerEffect1 extends StatelessWidget {
     return Shimmer.fromColors(
         highlightColor: Colors.grey[900]!,
         baseColor: Colors.white,
+        // margin: EdgeInsets.all(10),
+        // padding: const EdgeInsets.all(10),
         child: ListView.builder(
           itemCount: 10,
           itemBuilder: (context, index) {

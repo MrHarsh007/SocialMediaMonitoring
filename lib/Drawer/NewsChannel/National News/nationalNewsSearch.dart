@@ -1,13 +1,13 @@
 import 'dart:convert';
-import 'package:data_app/NewsChannel/newsChannelDetails.dart';
+import 'package:data_app/Drawer/NewsChannel/newsChannelDetails.dart';
 import 'package:data_app/models/newsChannelModel.dart';
 import 'package:http/http.dart' as http;
 
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:velocity_x/velocity_x.dart';
-import '../../DetailsPage.dart';
-import '../../models/Usermodel.dart';
+import '../../../DetailsPage.dart';
+import '../../../models/Usermodel.dart';
 
 class NationalNewsSearchUser extends SearchDelegate {
   @override

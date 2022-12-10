@@ -6,7 +6,7 @@ import 'package:velocity_x/velocity_x.dart';
 import 'package:data_app/DetailsPage.dart';
 import 'package:data_app/Extras/home_page.dart';
 import 'package:data_app/MainPage.dart';
-import 'package:data_app/darwer.dart';
+import 'package:data_app/Drawer/darwer.dart';
 import 'package:data_app/serialhome.dart';
 import 'package:data_app/shimmerEffect.dart';
 import 'package:data_app/shimmerEffect1.dart';
@@ -56,7 +56,6 @@ class _SerialPageState extends State<SerialPage> {
 
 // Fetch content from the json file
   Future<void> readJson() async {
-    new CircularProgressIndicator();
     final response = await http.get(Uri.parse(url));
     final catJson = response.body;
 

@@ -1,7 +1,8 @@
 import 'dart:math';
 
-import 'package:data_app/NewsChannel/Gujarati%20News/GujratiNews.dart';
-import 'package:data_app/NewsChannel/National%20News/NationalNews.dart';
+import 'package:data_app/Drawer/NewsChannel/Gujarati%20News/GujratiNews.dart';
+import 'package:data_app/Drawer/NewsChannel/National%20News/NationalNews.dart';
+import 'package:data_app/Drawer/radical.dart';
 import 'package:data_app/UpdateApk/appUpdate.dart';
 
 import 'package:data_app/serialhome.dart';
@@ -179,6 +180,29 @@ class _MyDrawerState extends State<MyDrawer> {
                             MaterialPageRoute(
                                 builder: (context) => const NationalNews()));
                       })),
+                  const Divider(
+                    color: Colors.black87,
+                    height: 8,
+                  ),
+                  ListTile(
+                    leading: const Icon(
+                      CupertinoIcons.square_fill_on_square_fill,
+                      color: Colors.white,
+                    ),
+                    title: const Text(
+                      "Radical",
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                      textScaleFactor: 1.3,
+                    ),
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const Radical()));
+                    },
+                  ),
                 ],
               )
             ],
